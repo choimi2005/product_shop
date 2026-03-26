@@ -7,6 +7,7 @@ const Header = () =>{
         <header className="header">
             <Link to= '/'>home</Link>
             <Link to= '/products'>상품목록</Link>
+            <Link to= '/add-product'>상품등록</Link>
         </header>
 
 
