@@ -1,0 +1,108 @@
+/* 헤더 스타일 */
+.header{
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+.header a{
+  margin: 0 16px;
+  color: orange;
+  text-decoration: none;
+}
+.header-user{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px; /* 요소간의 간격 */
+  color: #fff;
+  margin-left: 10px;
+}
+.logout-btn{
+  padding: 6px 12px;
+  border: 1px solid #ff9f1c;
+  border-radius: 6px;
+  background-color: transparent; /* 투명하게 */
+  color: #ff9f1c;
+  cursor: pointer;
+}
+.logout-btn:hover{
+  background-color: #ff9f1c;
+  color: #333;
+}
+
+/* main style */
+.main{
+  padding: 20px;
+  text-align: center;
+}
+.main img{
+  margin-top: 20px;
+}
+
+.product-list,
+.add-product,
+.sign-in{
+  padding: 20px;
+  text-align: center;
+}
+
+/* prdlist style */
+.table-list {
+  width: 60%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.table-list th, .table-list td {
+
+ border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table-list thead {
+  background-color: #eee;
+}
+
+.btn-add{
+ text-align: right;
+  margin-top: 20px;
+  margin-right: 20%; 
+}
+.btn-add button{
+  padding: 6px 12px;
+}
+
+
+/* 상품등록 스타일 */
+.add-form{
+  width: 40%;
+  margin: 0 auto;
+  text-align: left;
+}
+.add-form label{
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+.add-form input, .add-form textarea{
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-form button{
+  margin: 3px;
+  padding: 6px;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.add-form button[type="button"]{
+  background-color: #555555;
+  margin-left: 10px;
+}
