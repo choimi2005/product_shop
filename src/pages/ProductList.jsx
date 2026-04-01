@@ -21,7 +21,7 @@ const ProductList = () => {
                   {products.map((products) => (
                     <tr key={products.id}>
                         <td>{products.id}</td>
-                        <td>{products.name} </td>
+                          <Link to={`/products/${product.id}`}>{product.name}</Link> 
                         <td>{products.price}</td>
                         <td>{products.description}</td>
                     </tr>
